@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import MenuConfig from '../../config'
 import * as Icon from '@ant-design/icons';
 import { Button, Layout, Menu, theme } from 'antd';
+import { useNavigate } from 'react-router-dom';
 
 const { Header, Sider, Content } = Layout;
 
@@ -27,8 +28,12 @@ const items = MenuConfig.map((icon) => {
 })
 
 const CommonAside = ({ collapsed }) => {
-    //const [collapsed, setCollapsed] = useState(false);
-    //console.log(collapsed, 'commonAside')
+    const navigate = useNavigate();
+    
+    const selectMenu = (e) => {
+        navigate(e.key)
+    }
+
     return (
         <Sider trigger={null} collapsed={collapsed}>
             <h3 className='app-name'>{collapsed?'Backstage':'Management System'}</h3>
@@ -40,6 +45,7 @@ const CommonAside = ({ collapsed }) => {
                 style={{
                     height: '100%'
                 }}
+                onClick={selectMenu}
             />
         </Sider>
     )
