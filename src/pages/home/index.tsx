@@ -18,7 +18,7 @@ const Home = () => {
     useEffect(() => {
         getData().then(({ data }) => {
             //console.log(data.getStatisticalData.data,'res');
-            const { tableData, orderData, userData, videoData } = data.getStatisticalData.data;
+            const { tableData, orderData, userData, videoData } = data.data;
             setTableData(tableData)
             //for echarts
             const order = orderData;
