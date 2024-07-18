@@ -1,34 +1,16 @@
-# React + TypeScript + Vite
+###E-commerce Admin Panel
+This project is a comprehensive admin panel for an e-commerce platform, built using React, Ant Design, and Redux. It features a dynamic sidebar for seamless navigation, a responsive header for user profile management, and integrated data visualization with Echarts. The project also includes secure user authentication and robust user management capabilities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-![user-default](https://github.com/user-attachments/assets/83d631ec-3b08-4670-8d7b-00be0b661a03)
-![user](https://github.com/user-attachments/assets/4c2933aa-4053-4bb7-bc5e-05509c900e2a)
-
-- 
+###Features
+Dynamic Sidebar Navigation: Seamless navigation between different pages with state management.
+Responsive Header: User profile management with logout functionality.
+Data Visualization: Integrated Echarts for visualizing various statistics.
+User Authentication: Secure login system with protected routes.
+User Management: Add, edit, delete, and search functionalities for managing users.
+Technologies Used
+React
+Redux
+Ant Design
+React Router
+Echarts
+Axios
