@@ -9,4 +9,4 @@ Mock.mock(/user\/addUser/,'post',userApi.createUser);
 Mock.mock(/user\/editUser/,'post',userApi.updateUser);
 Mock.mock(/user\/deleteUser/,'post',userApi.deleteUser);
 
-Mock.mock(/permission\/getMenu/, 'post', permissionApi.getMenu)
+Mock.mock(/permission\/getMenu/, 'post', permissionApi.getMenu);
