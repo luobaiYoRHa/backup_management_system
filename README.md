@@ -30,3 +30,6 @@ To get a local copy up and running, follow these simple steps:
 
 ### Run the App
 npm run dev
+
+### Home Page
+![image](https://github.com/user-attachments/assets/956fbd21-a157-4361-bb74-0719fe8022f7)
