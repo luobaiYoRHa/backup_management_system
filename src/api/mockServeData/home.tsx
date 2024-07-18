@@ -6,12 +6,12 @@ export default {
     for (let i = 0; i < 7; i++) {
       List.push(
         Mock.mock({
-          苹果: Mock.Random.float(100, 8000, 0, 0),
+          Apple: Mock.Random.float(100, 8000, 0, 0),
           vivo: Mock.Random.float(100, 8000, 0, 0),
           oppo: Mock.Random.float(100, 8000, 0, 0),
-          魅族: Mock.Random.float(100, 8000, 0, 0),
-          三星: Mock.Random.float(100, 8000, 0, 0),
-          小米: Mock.Random.float(100, 8000, 0, 0)
+          Meizu: Mock.Random.float(100, 8000, 0, 0),
+          Samsung: Mock.Random.float(100, 8000, 0, 0),
+          Xiaomi: Mock.Random.float(100, 8000, 0, 0)
         })
       )
     }
@@ -20,11 +20,11 @@ export default {
       data: {
         videoData: [
           {
-            name: '小米',
+            name: 'Xiaomi',
             value: 2999
           },
           {
-            name: '苹果',
+            name: 'Apple',
             value: 5999
           },
           {
@@ -36,48 +36,48 @@ export default {
             value: 1999
           },
           {
-            name: '魅族',
+            name: 'Meizu',
             value: 2200
           },
           {
-            name: '三星',
+            name: 'Samsung',
             value: 4500
           }
         ],
 
         userData: [
           {
-            date: '周一',
+            date: 'Mon',
             new: 5,
             active: 200
           },
           {
-            date: '周二',
+            date: 'Tues',
             new: 10,
             active: 500
           },
           {
-            date: '周三',
+            date: 'Wed',
             new: 12,
             active: 550
           },
           {
-            date: '周四',
+            date: 'Thur',
             new: 60,
             active: 800
           },
           {
-            date: '周五',
+            date: 'Fri',
             new: 65,
             active: 550
           },
           {
-            date: '周六',
+            date: 'Sat',
             new: 53,
             active: 770
           },
           {
-            date: '周日',
+            date: 'Sun',
             new: 33,
             active: 170
           }
@@ -101,25 +101,25 @@ export default {
             totalBuy: 24000
           },
           {
-            name: '苹果',
+            name: 'Apple',
             todayBuy: 800,
             monthBuy: 4500,
             totalBuy: 65000
           },
           {
-            name: '小米',
+            name: 'Xiaomi',
             todayBuy: 1200,
             monthBuy: 6500,
             totalBuy: 45000
           },
           {
-            name: '三星',
+            name: 'Samsung',
             todayBuy: 300,
             monthBuy: 2000,
             totalBuy: 34000
           },
           {
-            name: '魅族',
+            name: 'Meizu',
             todayBuy: 350,
             monthBuy: 3000,
             totalBuy: 22000

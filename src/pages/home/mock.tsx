@@ -1,55 +1,55 @@
 export const columns = [
     {
-      title: '课程',
+      title: 'Product',
       dataIndex: 'name'
     },
     {
-      title: '今日购买',
+      title: 'Today Buy',
       dataIndex: 'todayBuy'
     },
     {
-      title: '本月购买',
+      title: 'Monthly Buy',
       dataIndex: 'monthBuy'
     },
     {
-      title: '总购买',
+      title: 'Total Buy',
       dataIndex: 'totalBuy'
     }
   ]
 
   export const countData = [
     {
-      "name": "今日支付订单",
+      "name": "Today invoice",
       "value": 1234,
       "icon": "CheckCircleOutlined",
       "color": "#2ec7c9"
     },
     {
-      "name": "今日收藏订单",
+      "name": "Today Marked",
       "value": 3421,
       "icon": "ClockCircleOutlined",
       "color": "#ffb980"
     },
     {
-      "name": "今日未支付订单",
+      "name": "Today Unpay",
       "value": 1234,
       "icon": "CloseCircleOutlined",
       "color": "#5ab1ef"
     },
     {
-      "name": "本月支付订单",
+      "name": "Monthly Payment",
       "value": 1234,
       "icon": "CheckCircleOutlined",
       "color": "#2ec7c9"
     },
     {
-      "name": "本月收藏订单",
+      "name": "Monthly Marked",
       "value": 3421,
       "icon": "ClockCircleOutlined",
       "color": "#ffb980"
     },
     {
-      "name": "本月未支付订单",
+      "name": "Monthly Unpay",
       "value": 1234,
       "icon": "CloseCircleOutlined",
       "color": "#5ab1ef"
