@@ -6,12 +6,16 @@ import userImg from '../../assets/img/user.png'
 import './index.css'
 import { useDispatch, UseDispatch } from "react-redux";
 import { collaspseMenu } from "../../store/reducers/tab";
+import { useNavigate } from "react-router-dom";
 
 const { Header, Sider, Content } = Layout;
 
 const CommonHeader = ({ collapsed }) => {
-    const logout = () => {
+    const navigate = useNavigate();
 
+    const logout = () => {
+        localStorage.removeItem('token')
+        navigate('/login')
     }
 
     const items: MenuProps['items'] = [
@@ -26,7 +30,7 @@ const CommonHeader = ({ collapsed }) => {
         {
             key: '2',
             label: (
-                <a onClick={() => logout} target="_blank" rel="noopener noreferrer" >
+                <a onClick={() => logout()} target="_blank" rel="noopener noreferrer" >
                     Log Out
                 </a>
             ),

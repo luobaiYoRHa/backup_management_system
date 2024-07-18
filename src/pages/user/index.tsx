@@ -18,7 +18,7 @@ const User = () => {
 
     //Add and edit
     const handleClick = (type, rowData) => {
-        setIsModalOpen(!modalType)
+        setIsModalOpen(!isModalOpen)
         if (type == 'add') {
             setModalType(0)
         } else {

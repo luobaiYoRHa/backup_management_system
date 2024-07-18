@@ -4,6 +4,7 @@ import Mall from '../pages/mall'
 import User from '../pages/user'
 import PageOne from '../pages/other/pageOne'
 import PageTwo from '../pages/other/pageTwo'
+import Login from '../pages/login'
 
 import { createBrowserRouter, Navigate } from 'react-router-dom'
 import { Component } from 'react'
@@ -44,6 +45,10 @@ const routes = [
           ]
         },    
     ]
+  },
+  {
+    path:'/login',
+    Component:Login
   }
 
 ]
